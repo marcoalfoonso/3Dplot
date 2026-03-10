@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="utf-8">
+        <title>3DPlot</title>
+        <link rel="stylesheet" href="externalPlot3D.css">
+        <script src="control3D.js" ></script>
+    </head>
+
+    <body bgcolor="#f0f7f8">
+
+        <h1>3GOL plot and controller.</h1>
+
+        <p class="nota">Move the sliders for controlling the robot.</p>
+
+        <div class="layout">
+            <div class="main">
+                <label for="q1">q1(°)</label>
+                <input type="range" id="q1" name="q1" min="0" max="180">
+
+                <label for="q2">q2(°)</label>
+                <input type="range" id="q2" name="q2" min="0" max="180">
+            </div>
+
+            <canvas id="myCanvas" width="600" height="400" style="border:1px solid black;"></canvas>
+        </div>
+        
+    </body>
+</html>
